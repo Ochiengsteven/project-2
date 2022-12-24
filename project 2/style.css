@@ -1,0 +1,9 @@
+/*style logo*/
+.logo {
+    background: url(../images/logo.png) no-repeat;
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+         <!-- Import CSS file -->
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @media (max-width: 800px) {
+                #header {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                #header-img {
+                    margin-bottom: 20px;
+                }
+                #nav-bar {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .nav-link {
+                    margin: 10px;
+                }
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header id="header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px;">
+            <!-- Header element with logo -->
+            <img id="header-img" style="height: 45px; width: 100px;" src="logo.png" alt="Logo">
+            <!-- Navbar with links -->
+            <nav id="nav-bar">
+                <a style="padding: 10px;" class="nav-link" href="#section1">VEGETABLE</a>
+                <a style="padding: 10px;" class="nav-link" href="#section2">FRUITS</a>
+                <a style="padding: 10px;" class="nav-link" href="#section3">CEREALS</a>
+            </nav>
+        </header>
+  <!-- Embedded product video -->
+  <section id="video-section">
+    <video id="video" src="video.mp4" controls></video>
+  </section>
+  
+  <!-- Form for email submission -->
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input name="email" id="email" type="email" placeholder="Enter your email address">
+    <input id="submit" type="submit" value="Submit">
+  </form>
+  
+  <!-- Sections for navbar links -->
+  <section id="section1">
+    <h2>VEGETABLE</h2>
+    <!-- Add content for section 1 -->
+  </section>
+  <section id="section2">
+    <h2>FRUITS</h2>
+    <!-- Add content for section 2 -->
+  </section>
+  <section id="section3">
+    <h2>CEREALS</h2>
+    <!-- Add content for section 3 -->
+  </section>
+  <!-- Import JavaScript file -->
+  <script src="scripts.js"></script>
+  </body>
+ 
+</html>
